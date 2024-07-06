@@ -1,0 +1,299 @@
+@media only screen and (min-width: 600px) and (max-width: 1440px){
+    #wholePage{
+        width: 100%;
+        margin: 0 auto;
+        min-height: 100%;
+    }
+    body{
+        background-color: black;
+        background-size:100%;
+        font-family: 'Oswald';
+    }
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    #header_location{
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+    #logo_location{
+        height: 10vh;
+    }
+    #title_location{
+        font-size: 6vh;
+        display: flex;
+        align-items: center;
+        color: wheat;
+    }
+    #location_name{
+        font-size: 10vh;
+        font-family: Facon;
+    }
+    #location_name_wrapper{
+        padding: 5vh 0;
+    }
+    #navigation_zone{
+      font-size: 5vh;
+      padding-left: 2vh;
+    }
+    #header_contents_container{
+      display: flex;
+      padding-right: 2vh;
+    }
+    .link_comn{
+      font-size: 2vh;
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 900;
+      transition: all 1s ease;
+    }
+    .navigation_bars{
+      transition: all 2s ease-in-out;
+      color: wheat;
+    }
+    .link_comn:hover{
+      text-decoration: underline;
+      color: #ffffff;
+    }
+    .dropdown_menu_navigation{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2vh 0vh;
+      border-radius: 2vh;
+      gap: 2vh;
+      position: absolute;
+      z-index: 10;
+      background: rgb(130,10,10);
+      background: linear-gradient(90deg, rgba(130,10,10,1) 12%, rgba(245,222,179,1) 94%);
+      opacity: 0;
+      transition: all 0.5s ease;
+    }
+    #sixth_Part{
+        height: 100vh;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 3vh;
+        overflow: hidden;
+        background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+      }
+      #background6{
+        width: 100%;
+        height: 110%;
+        position: absolute;
+        object-fit: cover;
+        z-index: 0;
+        opacity: 0.5;
+      }
+      .week_days_size{
+        font-size: 5vh;
+      }
+      .program_part1{
+        width: 50%;
+        height: 150%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 10px;
+      }
+      .program_part2{
+        width: 50%;
+        height: 150%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 10px;
+      }
+      .program_part_container{
+        display: flex;
+        justify-content: center;
+      }
+      #progrem_week_time{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+      }
+      #program_title_wrapper{
+        font-size: 6vh;
+        font-family: Facon;
+        text-align: center;
+        padding-top: 2vh;
+        color: wheat;
+        text-shadow: -2px 2px 0 #000, 2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000;
+        position: relative;
+        z-index: 2;
+      }
+      .program_part1{
+        opacity: 0;
+        transition: all 2s ease;
+        transform: translateX(100%);
+        filter: blur(5px);
+      }
+      .program_part2{
+        opacity: 0;
+        transition: all 2s ease;
+        transform: translateX(-100%);
+        filter: blur(5px);
+      }
+      .program_move_right{
+        opacity: 1;
+        filter: blur(0);
+        transform: translateX(0);
+      }
+      .program_move_left{
+        opacity: 1;
+        filter: blur(0);
+        transform: translateX(0);
+      }
+      .program_move_right{
+        opacity: 1;
+        filter: blur(0);
+        transform: translateX(0);
+      }
+      .comn_icons_program:hover{
+        cursor: pointer;
+        color: #f5deb3;
+        font-size: 4vh;
+      }
+      .comn_icons_program{
+        color: #fff;
+        text-decoration: none;
+        font-size: 3vh;
+        transition: all 0.5s ease;
+      }
+      #pharagraph_program{
+        display: flex;
+        flex-direction: column;
+      }
+      #theLastPart{
+        background-color: black;
+        color: white;
+        height: max-content;
+    }
+    #first_section{
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+    }
+    #second_section{
+        display: flex;
+        justify-content: space-between;
+        font-size: 2vh;
+        width: 90%;
+    }
+    #logo_name_moto{
+        display: flex;
+        gap: 3vh;
+        flex-direction: column;
+    }
+    #Contacts_wrapper{
+        font-size: 3vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #logo_title{
+        display: flex;
+        align-items: baseline;
+        flex-direction: column;
+    }
+    #moto_wrapper_v2{
+        position: relative;
+        top: -1vh;
+        left: 1vh;
+        font-size: 3vh;
+    }
+    #title_v2{
+        font-size: 6vh;
+    }
+    .flex_comon{
+        display: flex;
+        align-items: baseline;
+        gap: 1vh;
+    }
+    #location_wrapper{
+        transition: all 0.5s ease;
+        color: white;
+        text-decoration: none;
+    }
+    #location_wrapper:hover{
+        color: rgb(121, 0, 0);
+        cursor: pointer; 
+        text-decoration: underline;
+    }
+    #link_location{
+        transition: all 0.5s ease;
+        color: #fff;
+        text-decoration: none;
+    }
+    #location{
+        transition: all 0.5s ease;
+    }
+    #location_wrapper:hover #location{
+        color: rgb(121, 0, 0);
+    }
+    .position_rel_comon{
+        position: relative;
+        top: -1vh;
+    }
+    #LogoMMGYM_v2{
+        width: 15vh;
+    }
+    .comn_link{
+        color: white;
+        text-decoration: none;
+        transition: all 0.5s ease;
+    }
+    .comn_link:hover{
+        text-decoration: underline;
+        color: rgb(121, 0, 0); 
+    }
+    .comn_icon{
+        color: white;
+        transition: all 0.5s ease;
+    }
+    .comn_icon:hover{
+        color: rgb(121, 0, 0); 
+    }
+    .comn_icon2{
+        color: rgb(0, 0, 0);
+        position: relative;
+        top: -1vh;
+        left: -1vh;
+        font-size: 3vh;
+        padding: 0.5vh;
+        transition: all 0.5s ease;
+    }
+    #line_wrapper{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: -1vh;
+        height: 2vh;
+        align-items: center;
+    }
+    #line{
+        height: 2px;
+        background-color: grey;
+        width: 90%;
+    }
+    .comn_space{
+        display: flex;
+        gap: 2vh;
+    }
+    #second_section_wrapper{
+        display: flex;
+        justify-content: center;
+    }
+    #first_section_wrapper{
+        display: flex;
+        justify-content: center;
+    }
+}

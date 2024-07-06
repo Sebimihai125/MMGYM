@@ -1,0 +1,339 @@
+@media only screen and (max-width: 600px){
+  #header_location{
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+  }
+  #logo_location{
+      height: 7vh;
+  }
+  #title_location{
+      font-size: 5vh;
+      display: flex;
+      align-items: center;
+      color: #ffffff;
+  }
+  #location_name{
+      font-size: 10vh;
+      font-family: Facon;
+  }
+  #location_name_wrapper{
+      padding: 5vh 0;
+  }
+  .comn_link{
+      color: wheat;
+      text-decoration: none;
+      transition: all 0.5s ease;
+  }
+  #header_contents_container{
+      display: flex;
+      padding-right: 2vh;
+    }
+  #navigation_zone{
+    font-size: 5vh;
+    padding-left: 2vh;
+  }
+  .link_comn{
+    font-size: 2vh;
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    transition: all 1s ease;
+  }
+  .navigation_bars{
+    transition: all 2s ease-in-out;
+    color: #ffffff;
+  }
+  .link_comn:hover{
+    text-decoration: underline;
+    color: #fff;
+  }
+  .dropdown_menu_navigation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2vh 0vh;
+    border-radius: 2vh;
+    gap: 2vh;
+    position: absolute;
+    z-index: 10;
+    background: rgb(130,10,10);
+    background: linear-gradient(90deg, rgba(130,10,10,1) 12%, rgba(245,222,179,1) 94%);
+    opacity: 0;
+    transition: all 0.5s ease;
+  }
+    #fifthPart{
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      #background5{
+        width: 100%;
+        height: 107%;
+        position: absolute;
+        object-fit: cover;
+        z-index: 0;
+        opacity: 0.5;
+      }
+      #personal_trainer_wrapper{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+      }
+      #personal_trainer_contents_container{
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+        overflow: hidden;
+        height: 100%;
+        justify-content: center;
+      }
+      #personal_trainer_title{
+        font-size: 5vh;
+        padding-top: 2vh;
+        font-family: Facon;
+        color: rgb(255, 255, 255);
+        text-shadow: -2px 2px 0 #000, 2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000;
+        text-align: center;
+        z-index: 2;
+        position: relative;
+      }
+      .aboutMe_trainer{
+        margin-left: 1rem;
+        list-style-type: disc;
+      }
+      #personal_trainer_part1{
+        display: flex;
+        justify-content: center;
+      }
+      .comn_image_size{
+        width: 10vh;
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+      }
+      #personal_trainer_part2{
+        display: flex;
+        justify-content: space-around;
+        gap: 10%;
+      }
+      .content_trainer_wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 2vh;
+      }
+      .personal_trainer_container1{
+        display: flex;
+        color: rgba(0, 0, 0, 0.8);
+        background-color: rgb(255, 255, 255);
+        width: 35vh;
+        border-radius: 10px;
+        gap: 1vh;
+        box-shadow: 22px 25px 48px 8px rgba(0, 0, 0, 0.55);
+        transition: all 1s ease;
+        height: 30vh;
+        opacity: 0;
+        filter: blur(5px);
+        transform: translateX(100%);
+      }
+      .personal_trainer_container1:hover{
+        color: rgb(255, 255, 255);
+        background-color: rgb(0, 0, 0);
+      }
+      .personal_trainer_container1 img{
+        object-fit: cover;
+      }
+      .personal_trainer_container2{
+        display: flex;
+        color: rgba(0, 0, 0, 0.8);
+        background-color: rgb(255, 255, 255);
+        width: 35vh;
+        border-radius: 10px;
+        gap: 1vh;
+        box-shadow: 22px 25px 48px 8px rgba(0, 0, 0, 0.55);
+        transition: all 1s ease;
+        height: 30vh;
+        opacity: 0;
+        filter: blur(5px);
+        transform: translateX(-100%);
+      }
+      .personal_trainer_container2:hover{
+        color: rgb(255, 255, 255);
+        background-color: rgb(0, 0, 0);
+      }
+      .personal_trainer_container2 img{
+        object-fit: cover;
+      }
+      #image_trainer1{
+        height: 10vh;
+      }
+      #wholePage{
+        width: 100%;
+        margin: 0 auto;
+        min-height: 100%;
+      }
+      body{
+        background-color: black;
+        background-size:100%;
+        font-family: 'Oswald';
+      }
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .personal_trainer_container1:hover .comn_icon2{
+        color:#fff;
+      } 
+      .personal_trainer_container2:hover .comn_icon2{
+        color:#fff;
+      } 
+      .trainer_move_left{
+        transform: translateX(0);
+        opacity: 1;
+        filter: blur(0);
+      }
+      .trainer_move_right{
+        transform: translateX(0);
+        opacity: 1;
+        filter: blur(0);
+      }
+      .icons_container{
+        text-align: end;
+      }
+      .comn_icon2{
+        color: rgb(0, 0, 0);
+        position: relative;
+        top: -1vh;
+        left: -1vh;
+        font-size: 3vh;
+        padding: 0.5vh;
+        transition: all 0.5s ease;
+      }
+      #theLastPart{
+        background-color: black;
+        color: white;
+        height: max-content;
+      }
+      #first_section{
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+      }
+      #second_section{
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.5vh;
+        width: 90%;
+      }
+      #logo_name_moto{
+        display: flex;
+        gap: 3vh;
+        flex-direction: column;
+      }
+      #Contacts_wrapper{
+        font-size: 1.5vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      #logo_title{
+        display: flex;
+        flex-direction: column;
+      }
+      #moto_wrapper_v2{
+        position: relative;
+        top: -1vh;
+        left: 1vh;
+        font-size: 2vh;
+      }
+      #title_v2{
+        font-size: 3vh;
+      }
+      .flex_comon{
+        display: flex;
+        align-items: baseline;
+        gap: 1vh;
+      }
+      #location_wrapper{
+        transition: all 0.5s ease;
+        color: white;
+        text-decoration: none;
+      }
+      #location_wrapper:hover{
+        color: rgb(121, 0, 0);
+        text-decoration: underline;
+      }
+      #link_location{
+        transition: all 0.5s ease;
+        color: #fff;
+        text-decoration: none;
+      }
+      #location{
+        transition: all 0.5s ease;
+      }
+      #location_wrapper:hover #location{
+        color: rgb(121, 0, 0);
+      }
+      .position_rel_comon{
+        position: relative;
+        top: -1vh;
+      }
+      #LogoMMGYM_v2{
+        height: 5vh;
+      }
+      .comn_link{
+        color: white;
+        text-decoration: none;
+        transition: all 0.5s ease;
+      }
+      .comn_link:hover{
+        text-decoration: underline;
+        color: rgb(121, 0, 0); 
+      }
+      .comn_icon{
+        color: white;
+        transition: all 0.5s ease;
+      }
+      .comn_icon:hover{
+        color: rgb(121, 0, 0); 
+      }
+      .comn_icon2{
+        color: rgb(0, 0, 0);
+        position: relative;
+        top: -1vh;
+        left: -1vh;
+        font-size: 3vh;
+        padding: 0.5vh;
+        transition: all 0.5s ease;
+      }
+      #line_wrapper{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: -1vh;
+        height: 2vh;
+        align-items: center;
+      }
+      #line{
+        height: 2px;
+        background-color: grey;
+        width: 90%;
+      }
+      .comn_space{
+        display: flex;
+        gap: 1vh;
+      }
+      #second_section_wrapper{
+        display: flex;
+        justify-content: center;
+      }
+      #first_section_wrapper{
+        display: flex;
+        justify-content: center;
+      }
+      #image_trainer2{
+        height: 10vh;
+      }  
+}
