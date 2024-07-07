@@ -94,7 +94,8 @@
         transition: all 1s ease;
       }
       .navigation_bars{
-        transition: all 2s ease-in-out
+        transition: all 2s ease-in-out;
+        color: wheat;
       }
       .link_comn:hover{
         text-decoration: underline;
