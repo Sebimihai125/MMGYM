@@ -1,4 +1,8 @@
 @media only screen and (min-width: 1440px){
+    @font-face {
+      font-family: "Facon";
+      src: url(Fonts/Facon.ttf);
+    }
     #header_location{
         display: flex;
         justify-content: space-between;
