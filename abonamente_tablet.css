@@ -122,7 +122,7 @@
         text-decoration: none;
       }
       .price_container{
-        color: white;  
+        color: rgb(0, 0, 0);  
         font-size: 3vh;
         width: 40%;
         transition: all 0.5s ease;
