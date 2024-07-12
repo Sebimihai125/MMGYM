@@ -31,31 +31,58 @@ const observer = new IntersectionObserver((entries) => {
 
 hiddenElements.forEach((el) => observer.observe(el));
 
-//second scroll on animation
-const standard_price  = document.querySelectorAll('.price1');
+//Prices scroll on animation
+const mmgym_prices = document.querySelectorAll('.price_container');
 
-const observer2 = new IntersectionObserver((enteris2) =>{
-  enteris2.forEach((entry2) => {
-    if(entry2.isIntersecting){
-      entry2.target.classList.add('move_left');
+const observer_prices = new IntersectionObserver((prices) =>{
+  prices.forEach((price) => {
+    const parentZoneId = price.target.parentNode.id;
+    if(parentZoneId === 'priceing_zone1'){
+      setTimeout(function(){
+        if(price.target.id === 'price_go_left'){
+          if(price.isIntersecting){
+            price.target.classList.add('move_right');
+          }
+        }
+        if(price.target.id === 'price_go_right'){
+          if(price.isIntersecting){
+            price.target.classList.add('move_left');
+          }
+        }
+      },0)
+    }
+    if(parentZoneId === 'priceing_zone2'){
+      setTimeout(function(){
+        if(price.target.id === 'price_go_left'){
+          if(price.isIntersecting){
+            price.target.classList.add('move_right');
+          }
+        }
+        if(price.target.id === 'price_go_right'){
+          if(price.isIntersecting){
+            price.target.classList.add('move_left');
+          }
+        }
+      },200)
+    }
+    if(parentZoneId === 'priceing_zone3'){
+      setTimeout(function(){
+        if(price.target.id === 'price_go_left'){
+          if(price.isIntersecting){
+            price.target.classList.add('move_right');
+          }
+        }
+        if(price.target.id === 'price_go_right'){
+          if(price.isIntersecting){
+            price.target.classList.add('move_left');
+          }
+        }
+      },400)
     }
   });
 });
 
-standard_price.forEach((el2) => observer2.observe(el2));
-
-//Third scroll on animation
-const stundent_price  = document.querySelectorAll('.price2');
-
-const observer3 = new IntersectionObserver((enteris3) =>{
-  enteris3.forEach((entry3) => {
-    if(entry3.isIntersecting){
-      entry3.target.classList.add('move_right');
-    }
-  });
-});
-
-stundent_price.forEach((el3) => observer3.observe(el3));
+mmgym_prices.forEach((el2) => observer_prices.observe(el2));
 
 //program scroll on animation1
 const program_right_slide = document.querySelectorAll('.program_part1');
