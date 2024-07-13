@@ -129,6 +129,7 @@
     background: linear-gradient(90deg, rgba(130,10,10,1) 12%, rgba(245,222,179,1) 94%);
     opacity: 0;
     transition: all 0.5s ease;
+    pointer-events: none;
   }
   #title_moto{
     display: flex;
