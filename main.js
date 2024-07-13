@@ -182,16 +182,10 @@ const dropdownNavigation = document.querySelector('.dropdown_menu_navigation');
 let opacity = window.getComputedStyle(dropdownNavigation).getPropertyValue("opacity");
 
 barsNavigation.addEventListener('mouseover', () => {
-  opacity = "1";
   barsNavigation.classList.remove("fa-bars");
   barsNavigation.classList.add("fa-xmark");
-  dropdownNavigation.style.pointerEvents = "auto";
-  dropdownNavigation.style.opacity = opacity;
 });
-barsNavigation.addEventListener('mouseleave', () => {
-  opacity = "0";
+barsNavigation.addEventListener('mouseleave', () =>{
   barsNavigation.classList.remove("fa-xmark");
   barsNavigation.classList.add("fa-bars");
-  dropdownNavigation.style.pointerEvents = "none";
-  dropdownNavigation.style.opacity = opacity;
 });
