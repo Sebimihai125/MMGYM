@@ -186,10 +186,12 @@ barsNavigation.addEventListener('click', () => {
     opacity = "1";
     barsNavigation.classList.remove("fa-bars");
     barsNavigation.classList.add("fa-xmark");
+    dropdownNavigation.style.pointerEvents = "auto";
   } else {
     opacity = "0";
     barsNavigation.classList.remove("fa-xmark");
     barsNavigation.classList.add("fa-bars");
+    dropdownNavigation.style.pointerEvents = "none";
   }
   dropdownNavigation.style.opacity = opacity;
 });
