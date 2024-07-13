@@ -116,8 +116,12 @@
       background: rgb(130,10,10);
       background: linear-gradient(90deg, rgba(130,10,10,1) 12%, rgba(245,222,179,1) 94%);
       opacity: 0;
-      transition: all 0.5s ease;
+      transition: all 1s ease;
       pointer-events: none;
+    }
+    #navigation_zone:hover .dropdown_menu_navigation{
+      opacity: 1;
+      pointer-events: all;
     }
     #title_moto{
       position: relative;
