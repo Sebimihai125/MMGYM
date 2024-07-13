@@ -181,17 +181,17 @@ const barsNavigation = document.querySelector('.navigation_bars');
 const dropdownNavigation = document.querySelector('.dropdown_menu_navigation');
 let opacity = window.getComputedStyle(dropdownNavigation).getPropertyValue("opacity");
 
-barsNavigation.addEventListener('click', () => {
-  if (opacity === "0") {
-    opacity = "1";
-    barsNavigation.classList.remove("fa-bars");
-    barsNavigation.classList.add("fa-xmark");
-    dropdownNavigation.style.pointerEvents = "auto";
-  } else {
-    opacity = "0";
-    barsNavigation.classList.remove("fa-xmark");
-    barsNavigation.classList.add("fa-bars");
-    dropdownNavigation.style.pointerEvents = "none";
-  }
+barsNavigation.addEventListener('mouseover', () => {
+  opacity = "1";
+  barsNavigation.classList.remove("fa-bars");
+  barsNavigation.classList.add("fa-xmark");
+  dropdownNavigation.style.pointerEvents = "auto";
+  dropdownNavigation.style.opacity = opacity;
+});
+barsNavigation.addEventListener('mouseleave', () => {
+  opacity = "0";
+  barsNavigation.classList.remove("fa-xmark");
+  barsNavigation.classList.add("fa-bars");
+  dropdownNavigation.style.pointerEvents = "none";
   dropdownNavigation.style.opacity = opacity;
 });
