@@ -149,7 +149,7 @@
       width: 25%;
     }
     .price_container:hover .join_button{
-      font-size: 3.3vh;
+      font-size: 2vh;
     }
   .icon_join{
     transition: all 1s ease;
