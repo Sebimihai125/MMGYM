@@ -23,6 +23,12 @@
         align-items: center;
         color: wheat;
     }
+   #location_map{
+    height: 65vh;
+    justify-content: center;
+    display: flex;
+    padding: 4vh 0vh;
+   }
     #location_name{
         font-size: 10vh;
         font-family: Facon;
