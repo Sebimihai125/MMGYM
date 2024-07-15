@@ -41,6 +41,9 @@
     }
     #location_map{
         padding: 4vh 0vh;
+        height: 78vh;
+        justify-content: center;
+        display: flex;
     }
     .comn_link{
         color: wheat;
