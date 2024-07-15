@@ -88,6 +88,7 @@
         height: 100vh;
         gap: 10vh;
         position: relative;
+        justify-content: center;
       }
       #prices_title{
         color: wheat;
