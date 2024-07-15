@@ -29,6 +29,9 @@
     }
     #location_map{
         padding: 5vh 0;
+        height: 70vh;
+        justify-content: center;
+        display: flex;
     }
     #location_name_wrapper{
         padding: 5vh 0;
