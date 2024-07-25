@@ -236,12 +236,12 @@
   .content_container_section1_3{
     display: flex;
     justify-content: flex-start;
-    padding: 0 5vh;
+    padding: 0 15vh;
   }
   .content_container_section2{
     display: flex;
     justify-content: flex-end;
-    padding: 0 5vh;
+    padding: 0 15vh;
   }
   #the4Part{
     height: 100vh;
