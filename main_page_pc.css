@@ -76,7 +76,7 @@
   }
   #title{
     color: wheat;
-    font-family:Facon;
+    font-family: "Montserrat", sans-serif;
     font-size: 20vh;
     transition-delay: 400ms;
   }
