@@ -205,7 +205,7 @@
   }
   #About_us_title_container{
     font-size: 4vh;
-    font-family: Facon;
+    font-family: "Montserrat", sans-serif;
     display: flex;
     justify-content: center;
     padding: 2vh 0;
@@ -264,7 +264,7 @@
     padding-top: 2vh;
     position: relative;
     text-align: center;
-    font-family: Facon;
+    font-family: "Montserrat", sans-serif;
     color: rgb(245, 222, 179);
     text-shadow: -2px 2px 0 #000, 2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000;
   }
