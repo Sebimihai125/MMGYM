@@ -183,6 +183,11 @@
     transform: translateY(100%);
     filter: blur(5px);
   }
+   #tag_name{
+    position: absolute;
+    left: 90vh;
+    text-shadow: -2px 2px 0 #000, 2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000;
+  }
   .about_us_slide1_down{
     opacity: 1;
     transform: translateY(0);
@@ -219,6 +224,7 @@
   .content_box{
     display: flex;
     gap: 10vh;
+   justify-content: space-between;
   }
   .content_image{
     height: 30vh;
@@ -226,6 +232,7 @@
   }
   .content_box_text{
     text-align: center;
+    width: 50%;
   }
   .content_container_section1_3{
     display: flex;
