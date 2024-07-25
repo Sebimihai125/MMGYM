@@ -60,6 +60,14 @@
     z-index: 0;
     opacity: 0.5;
   }
+ #background7{
+    width: 100%;
+    height: 100%;
+    position: absolute; 
+    object-fit: cover;
+    z-index: 0;
+    opacity: 0.5;
+  }
   #theCollArrow{
     display: flex;
     justify-content: center;
