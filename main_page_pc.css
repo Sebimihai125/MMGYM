@@ -175,7 +175,7 @@
     color: #fff;
     height: 100vh;
     overflow: hidden;
-   background-color: black;
+    background-color: black;
   }
   .content_box_slide1{
     opacity: 0;
@@ -206,6 +206,7 @@
     justify-content: center;
     padding: 2vh 0;
     color: wheat;
+    position: relative;
     text-shadow: -2px 2px 0 #000, 2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000;
   }
   #About_us_content{
