@@ -153,8 +153,7 @@
       #theThirdPart{
         color: #fff;
         height: 100vh;
-        background: rgb(130,10,10);
-        background: linear-gradient(90deg, rgba(130,10,10,1) 12%, rgba(245,222,179,1) 94%);
+        background-color: rgba(0, 0, 0, 0.805);
         overflow: hidden;
       }
       .content_box_slide1{
@@ -186,6 +185,7 @@
         justify-content: center;
         padding: 2vh 0;
         color: wheat;
+        position: relative;
         text-shadow: -2px 2px 0 #000, 2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000;
       }
       #About_us_content{
