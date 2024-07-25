@@ -72,7 +72,7 @@
       }
       #title{
         color: wheat;
-        font-family:Facon;
+        font-family: "Montserrat", sans-serif;
         font-size: 8vh;
       }
       #moto{
@@ -184,7 +184,7 @@
       }
       #About_us_title_container{
         font-size: 2.5vh;
-        font-family: Facon;
+        font-family: "Montserrat", sans-serif;
         display: flex;
         justify-content: center;
         padding: 2vh 0;
@@ -245,7 +245,7 @@
         font-size: 5vh;
         position: relative;
         text-align: center;
-        font-family: Facon;
+        font-family: "Montserrat", sans-serif;
         color: rgb(245, 222, 179);
         text-shadow: -2px 2px 0 #000, 2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000;
         padding-top: 2vh;
