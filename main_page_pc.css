@@ -185,7 +185,6 @@
   }
    #tag_name{
     position: absolute;
-    left: 90vh;
     text-shadow: -2px 2px 0 #000, 2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000;
   }
   .about_us_slide1_down{
