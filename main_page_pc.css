@@ -131,10 +131,6 @@
     align-items: center;
     gap: 2vh;
   }
- #navigation_zone:hover .dropdown_menu_navigation{
-      opacity: 1;
-      pointer-events: all;
-    }
   #title_moto{
     display: flex;
     flex-direction: column;
