@@ -177,12 +177,11 @@ const observer_about_us = new IntersectionObserver((about_us_slide) => {
 content_box_slide.forEach((el_about_us) => observer_about_us.observe(el_about_us));
 
 //Dropdown navigation
-const screenWidth = window.innerWidth;
 const barsNavigation = document.querySelector('.navigation_bars');
 const dropdownNavigation = document.querySelector('.dropdown_menu_navigation');
 let opacity = window.getComputedStyle(dropdownNavigation).getPropertyValue("opacity");
 
-if (screen.width <= 600) {
+if (window.innerWidth <= 600) {
   barsNavigation.addEventListener('mouseover', () => {
     barsNavigation.classList.remove("fa-bars");
     barsNavigation.classList.add("fa-xmark");
