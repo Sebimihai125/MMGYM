@@ -185,13 +185,13 @@
     #About_us_content{
     display: flex;
     flex-direction: column;
-    font-size: 4vh;
+    font-size: 3vh;
     padding-top: 10vh;
     gap: 10vh;
   }
   .content_box{
     display: flex;
-    gap: 10vh;
+    gap: 5vh;
    justify-content: space-between;
   }
   .content_image{
