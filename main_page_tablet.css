@@ -235,6 +235,8 @@
       display: flex;
       gap: 50px;
       justify-content: center;
+      flex-direction: column;
+      align-items: center
     }
     #argument_one{
       display: flex;
@@ -246,6 +248,7 @@
       color: rgba(0, 0, 0, 0.803);
       border-radius: 10px;
       transition-delay: 200ms;
+      padding-bottom: 2vh;
     }
     #image_trainer2{
       font-size: 25vh;
@@ -297,6 +300,7 @@
       background-color: #f5deb3;
       border-radius: 10px;
       transition-delay: 600ms;
+      padding-bottom: 2vh;
     }
     #theLastPart{
         background-color: black;
