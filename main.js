@@ -191,14 +191,5 @@ if (window.innerWidth <= 600) {
     barsNavigation.classList.remove("fa-xmark");
     barsNavigation.classList.add("fa-bars");
   });
-
-  barsNavigation.addEventListener('click', () => {
-    if (barsNavigation.classList.contains("fa-xmark")) {
-      opacity = 0;
-      barsNavigation.classList.remove("fa-xmark");
-      barsNavigation.classList.add("fa-bars");
-    }
-    dropdownNavigation.style.opacity = opacity;
-  });
 }
 
