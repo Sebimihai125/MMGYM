@@ -198,6 +198,7 @@
   .content_box{
     display: flex;
     gap: 5vh;
+    flex-direction: column;
   }
   .content_image{
     height: 15vh;
