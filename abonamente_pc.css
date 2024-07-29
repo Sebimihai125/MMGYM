@@ -200,6 +200,9 @@
         color: white;
         height: max-content;
       }
+      #title_v2{
+         font-size: 11vh;
+      }
       #first_section{
         display: flex;
         justify-content: space-between;
