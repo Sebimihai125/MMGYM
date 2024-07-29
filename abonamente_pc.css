@@ -225,11 +225,6 @@
       #logo_title{
         display: flex;
       }
-      #title_v2{
-        font-size: 11vh;
-        position: relative;
-        top: 1.5vh;
-      }
       .flex_comon{
         display: flex;
         align-items: baseline;
