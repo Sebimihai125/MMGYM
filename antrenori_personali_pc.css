@@ -58,6 +58,7 @@
     display: flex;
     align-items: center;
     gap: 2vh;
+    padding-top: 3vh;
   }
     #navigation_zone:hover .dropdown_menu_navigation{
       opacity: 1;
