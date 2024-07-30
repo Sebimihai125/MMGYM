@@ -211,15 +211,6 @@
       .icons_container{
         text-align: end;
       }
-      .comn_icon2{
-        color: rgb(0, 0, 0);
-        position: relative;
-        top: -1vh;
-        left: -1vh;
-        font-size: 3vh;
-        padding: 0.5vh;
-        transition: all 0.5s ease;
-      }
       #theLastPart{
         background-color: black;
         color: white;
