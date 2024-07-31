@@ -124,7 +124,7 @@
   }
   .link_comn:hover{
     text-decoration: underline;
-    color: black;
+    color: wheat;
   }
   .dropdown_menu_navigation{
     display: flex;
