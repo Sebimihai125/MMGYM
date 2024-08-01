@@ -248,27 +248,12 @@
         color: #fff;
         text-decoration: none;
       }
-      #location{
-        transition: all 0.5s ease;
-      }
-      #location_wrapper:hover #location{
-        color: rgb(121, 0, 0);
-      }
       .position_rel_comon{
         position: relative;
         top: -1vh;
       }
       #LogoMMGYM_v2{
         width: 25vh;
-      }
-      .comn_link{
-        color: white;
-        text-decoration: none;
-        transition: all 0.5s ease;
-      }
-      .comn_link:hover{
-        text-decoration: underline;
-        color: rgb(121, 0, 0); 
       }
       .comn_icon{
         color: white;
