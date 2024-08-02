@@ -110,9 +110,10 @@
         color: wheat;
       }
       .link_comn:hover{
-        text-decoration: underline;
-        color: black;
-      }
+    text-decoration: underline;
+    color: wheat;
+    text-shadow: 0 0 10px gold;
+  }
       .dropdown_menu_navigation{
         display: flex;
         flex-direction: column;
