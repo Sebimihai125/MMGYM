@@ -72,9 +72,10 @@
       color: wheat;
     }
     .link_comn:hover{
-      text-decoration: underline;
-      color: #000000;
-    }
+    text-decoration: underline;
+    color: wheat;
+    text-shadow: 0 0 10px gold;
+  }
     .dropdown_menu_navigation{
       display: flex;
       flex-direction: column;
@@ -84,8 +85,7 @@
       gap: 2vh;
       position: absolute;
       z-index: 10;
-      background: rgb(130,10,10);
-      background: linear-gradient(90deg, rgba(130,10,10,1) 12%, rgba(245,222,179,1) 94%);
+      background: black;
       opacity: 0;
       transition: all 1s ease;
       pointer-events: none;
@@ -93,15 +93,6 @@
     #navigation_zone:hover .dropdown_menu_navigation{
       opacity: 1;
       pointer-events: all;
-    }
-    .comn_link{
-        color: wheat;
-        text-decoration: none;
-        transition: all 0.5s ease-in-out;
-    }
-    .comn_link:hover{
-        text-decoration: underline;
-        color: rgb(121, 0, 0); 
     }
     #theLastPart{
         background-color: black;
