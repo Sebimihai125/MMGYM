@@ -67,8 +67,9 @@
   }
   .link_comn:hover{
     text-decoration: underline;
-    color: black;
-  }
+    color: wheat;
+    text-shadow: 0 0 10px gold;
+    }
   .dropdown_menu_navigation{
     display: flex;
     align-items: center;
