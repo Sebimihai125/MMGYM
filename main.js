@@ -181,7 +181,7 @@ const barsNavigation = document.querySelector('.navigation_bars');
 const dropdownNavigation = document.querySelector('.dropdown_menu_navigation');
 let opacity = window.getComputedStyle(dropdownNavigation).getPropertyValue("opacity");
 
-if (window.innerWidth <= 600) {
+if (window.innerWidth <= 1440) {
   barsNavigation.addEventListener('mouseover', () => {
     barsNavigation.classList.remove("fa-bars");
     barsNavigation.classList.add("fa-xmark");
