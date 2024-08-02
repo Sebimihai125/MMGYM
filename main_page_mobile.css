@@ -122,8 +122,7 @@
         border-radius: 2vh;
         gap: 2vh;
         position: absolute;
-        background: rgb(130,10,10);
-        background: linear-gradient(90deg, rgba(130,10,10,1) 12%, rgba(245,222,179,1) 94%);
+        background: black;
         opacity: 0;
         pointer-events: none;
         transition: all 1s ease;
