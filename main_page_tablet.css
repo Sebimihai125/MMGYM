@@ -194,6 +194,9 @@
     #tag_name{
     position: absolute;
     text-shadow: -2px 2px 0 #000, 2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000;
+    color: #1260da;
+    text-decoration: none;
+    top: 30vh;
   }
     #About_us_content{
     display: flex;
