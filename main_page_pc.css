@@ -175,6 +175,13 @@
    #tag_name{
     position: absolute;
     text-shadow: -2px 2px 0 #000, 2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000;
+    color: #1260da;
+    text-decoration: none;
+    top: 30vh;
+  }
+  #tag_name:hover{
+   text-decoration: underline;
+   color: #f5deb3;
   }
   .about_us_slide1_down{
     opacity: 1;
@@ -221,6 +228,9 @@
   .content_box_text{
     text-align: center;
     width: 50%;
+  }
+  .content_box_image{
+    display: flex;
   }
   .content_container_section1_3{
     display: flex;
