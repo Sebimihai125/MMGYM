@@ -60,7 +60,7 @@
       align-items: center;
     }
     .link_comn{
-      font-size: 2vh;
+      font-size: 1vh;
       color: rgb(255, 255, 255);
       text-decoration: none;
       font-family: Arial, Helvetica, sans-serif;
@@ -138,6 +138,7 @@
         display: flex;
         align-items: baseline;
         gap: 1vh;
+        font-family: Arial, Helvetica, sans-serif;
       }
       #location_wrapper{
         transition: all 0.5s ease;
@@ -159,7 +160,7 @@
         top: -1vh;
       }
       #LogoMMGYM_v2{
-        height: 5vh;
+        width: 10vh;
       }
       .comn_icon{
         color: white;
