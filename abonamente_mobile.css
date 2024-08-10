@@ -48,7 +48,7 @@
       padding-left: 2vh;
     }
     .link_comn{
-      font-size: 2vh;
+      font-size: 1vh;
       color: rgb(255, 255, 255);
       text-decoration: none;
       font-family: Arial, Helvetica, sans-serif;
@@ -241,6 +241,7 @@
         display: flex;
         align-items: baseline;
         gap: 1vh;
+        font-family: Arial, Helvetica, sans-serif;
       }
       #location_wrapper{
         transition: all 0.5s ease;
