@@ -147,7 +147,7 @@
       justify-content: center;
     }
     .price_container:hover{
-      width: 25%;
+      width: 40%;
     }
     .price_container:hover .join_button{
       font-size: 2vh;
