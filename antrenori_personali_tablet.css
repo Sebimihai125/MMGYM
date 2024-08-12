@@ -94,6 +94,7 @@
       flex-direction: column;
       gap: 5rem;
       overflow: hidden;
+      justify-content: center;
     }
     #image_trainer1{
       height: 20vh;
@@ -275,6 +276,8 @@
     }
     #title_v2{
         font-size: 6vh;
+        position: relative;
+        top: 0vh;
     }
     .flex_comon{
         display: flex;
