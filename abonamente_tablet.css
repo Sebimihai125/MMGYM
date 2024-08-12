@@ -48,7 +48,7 @@
       padding-right: 2vh;
     }
     .link_comn{
-      font-size: 2vh;
+      font-size: 1.5vh;
       color: rgb(255, 255, 255);
       text-decoration: none;
       font-family: Arial, Helvetica, sans-serif;
@@ -288,6 +288,8 @@
     .comn_space{
         display: flex;
         gap: 2vh;
+        align-items: flex-end;
+    }
     }
     #second_section_wrapper{
         display: flex;
