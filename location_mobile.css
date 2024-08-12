@@ -133,6 +133,8 @@
       }
       #title_v2{
         font-size: 3vh;
+          position: relative;
+          top: 0vh;
       }
       .flex_comon{
         display: flex;
