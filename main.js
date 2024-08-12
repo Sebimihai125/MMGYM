@@ -179,16 +179,25 @@ content_box_slide.forEach((el_about_us) => observer_about_us.observe(el_about_us
 //Dropdown navigation
 const barsNavigation = document.querySelector('.navigation_bars');
 const dropdownNavigation = document.querySelector('.dropdown_menu_navigation');
-let opacity = window.getComputedStyle(dropdownNavigation).getPropertyValue("opacity");
 
-if (window.innerWidth <= 1440) {
-  barsNavigation.addEventListener('mouseover', () => {
+barsNavigation.addEventListener('mouseover', () => {
+  if (window.innerWidth <= 1440) {
     barsNavigation.classList.remove("fa-bars");
     barsNavigation.classList.add("fa-xmark");
-  });
+  }
+});
 
-  barsNavigation.addEventListener('mouseleave', () => {
+barsNavigation.addEventListener('mouseleave', () => {
+  if (window.innerWidth <= 1440) {
     barsNavigation.classList.remove("fa-xmark");
     barsNavigation.classList.add("fa-bars");
-  });
-}
+  }
+});
+
+barsNavigation.addEventListener('click', () => {
+  if (barsNavigation.classList.contains('fa-xmark') && window.innerWidth <= 1440) {
+    barsNavigation.classList.remove("fa-xmark");
+    barsNavigation.classList.add("fa-bars");
+    dropdownNavigation.style.opacity = 1;
+  }
+});
