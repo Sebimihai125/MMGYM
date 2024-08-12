@@ -179,17 +179,16 @@ content_box_slide.forEach((el_about_us) => observer_about_us.observe(el_about_us
 //Dropdown navigation
 const barsNavigation = document.querySelector('.navigation_bars');
 const dropdownNavigation = document.querySelector('.dropdown_menu_navigation');
+let opacity = window.getComputedStyle(dropdownNavigation).getPropertyValue("opacity");
 
-barsNavigation.addEventListener('mouseover', () => {
-  if (window.innerWidth <= 1440) {
+if (window.innerWidth <= 1440) {
+  barsNavigation.addEventListener('mouseover', () => {
     barsNavigation.classList.remove("fa-bars");
     barsNavigation.classList.add("fa-xmark");
-  }
-});
+  });
 
-barsNavigation.addEventListener('mouseleave', () => {
-  if (window.innerWidth <= 1440) {
+  barsNavigation.addEventListener('mouseleave', () => {
     barsNavigation.classList.remove("fa-xmark");
     barsNavigation.classList.add("fa-bars");
-  }
-});
+  });
+}
