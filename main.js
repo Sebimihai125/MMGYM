@@ -180,6 +180,8 @@ content_box_slide.forEach((el_about_us) => observer_about_us.observe(el_about_us
 const barsNavigation = document.querySelector('.navigation_bars');
 const dropdownNavigation = document.querySelector('.dropdown_menu_navigation');
 
+dropdownNavigation.style.opacity = '0';
+
 barsNavigation.addEventListener('mouseover', () => {
   if (window.innerWidth <= 1440) {
     barsNavigation.classList.remove("fa-bars");
@@ -198,6 +200,6 @@ barsNavigation.addEventListener('click', () => {
   if (barsNavigation.classList.contains('fa-xmark') && window.innerWidth <= 1440) {
     barsNavigation.classList.remove("fa-xmark");
     barsNavigation.classList.add("fa-bars");
-    dropdownNavigation.style.opacity = 1;
+    dropdownNavigation.style.opacity = '1';
   }
 });
