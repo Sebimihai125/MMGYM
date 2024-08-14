@@ -180,7 +180,7 @@
       }
       #tag_name{
     position: absolute;
-    text-shadow: -2px 2px 0 #000, 2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000;
+    text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
     color: #1260da;
     text-decoration: none;
     top: 20vh
