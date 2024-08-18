@@ -176,30 +176,47 @@ const observer_about_us = new IntersectionObserver((about_us_slide) => {
 
 content_box_slide.forEach((el_about_us) => observer_about_us.observe(el_about_us));
 
-//Dropdown navigation
+//menu navigation part
+const menu_close_button = document.querySelector('.closing_mark');
 const barsNavigation = document.querySelector('.navigation_bars');
 const dropdownNavigation = document.querySelector('.dropdown_menu_navigation');
+const logo_mmgym = document.querySelector('.LogoMMGYM');
 
-dropdownNavigation.style.opacity = '0';
+menu_close_button.addEventListener('click',() => {
+  dropdownNavigation.classList.remove('menu_open')
+  dropdownNavigation.classList.add('menu_close')
+  logo_mmgym.classList.remove('logo_move_right')
+});
 
-barsNavigation.addEventListener('mouseover', () => {
-  if (window.innerWidth <= 1440) {
-    barsNavigation.classList.remove("fa-bars");
-    barsNavigation.classList.add("fa-xmark");
+barsNavigation.addEventListener('click',() => {
+  dropdownNavigation.classList.remove('menu_close')
+  dropdownNavigation.classList.add('menu_open')
+  logo_mmgym.classList.add('logo_move_right')
+});
+
+const navigation_content = document.querySelector('.navigations');
+const socials_content = document.querySelector('.socials');
+const down_arrow_navigations = document.querySelector('.down_arrow_navigations');
+const down_arrow_socials = document.querySelector('.down_arrow_socials');
+
+down_arrow_navigations.addEventListener('click', () => {
+  navigation_content.classList.toggle('navigation_close');
+  if(navigation_content.classList.contains('navigation_close')){
+    down_arrow_navigations.classList.remove('fa-caret-down')
+    down_arrow_navigations.classList.add('fa-caret-up')
+  }else{
+    down_arrow_navigations.classList.remove('fa-caret-up')
+    down_arrow_navigations.classList.add('fa-caret-down')
   }
 });
 
-barsNavigation.addEventListener('mouseleave', () => {
-  if (window.innerWidth <= 1440) {
-    barsNavigation.classList.remove("fa-xmark");
-    barsNavigation.classList.add("fa-bars");
-  }
-});
-
-barsNavigation.addEventListener('click', () => {
-  if (barsNavigation.classList.contains('fa-xmark') && window.innerWidth <= 1440) {
-    barsNavigation.classList.remove("fa-xmark");
-    barsNavigation.classList.add("fa-bars");
-    dropdownNavigation.style.opacity = '1';
+down_arrow_socials.addEventListener('click', () => {
+  socials_content.classList.toggle('socials_close');
+  if(socials_content.classList.contains('socials_close')){
+    down_arrow_socials.classList.remove('fa-caret-down')
+    down_arrow_socials.classList.add('fa-caret-up')
+  }else{
+    down_arrow_socials.classList.remove('fa-caret-up')
+    down_arrow_socials.classList.add('fa-caret-down')
   }
 });
