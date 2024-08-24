@@ -509,8 +509,8 @@
     justify-content: center;
   }
  .comn_link{
-   font-size: 2vh;
-    color: black;
+    font-size: 2vh;
+    color: #fff;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 900;
@@ -518,6 +518,6 @@
  }
  .comn_link:hover {
     text-decoration: underline;
-    color: #fff;
+    color: #f5deb3;
   }
 }    
