@@ -119,6 +119,7 @@
         position: relative;
         z-index: 1;
         font-size: 5vh;
+        color: white;
       }
       .link_comn:hover{
         text-decoration: underline;
