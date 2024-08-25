@@ -135,6 +135,7 @@
   .link_comn:hover {
     text-decoration: underline;
     color: #fff;
+    text-shadow: 0 0 10px gold;
   }
   .dropdown_menu_navigation {
     display: flex;
@@ -464,6 +465,10 @@
     cursor: pointer; 
     text-decoration: underline;
   }
+  #location_wrapper:hover location_txt{
+    text-shadow: 0 0 10px gold;
+    color: wheat;
+  } 
   #link_location{
     transition: all 0.5s ease;
     color: #fff;
@@ -481,7 +486,8 @@
     transition: all 0.5s ease;
   }
   .comn_icon:hover{
-    color: rgb(121, 0, 0); 
+    text-shadow: 0 0 10px gold;
+    color: wheat;
   }
   #line_wrapper{
     display: flex;
@@ -519,5 +525,6 @@
  .comn_link:hover {
     text-decoration: underline;
     color: #f5deb3;
+    text-shadow: 0 0 10px gold;
   }
 }    
