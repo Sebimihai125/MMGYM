@@ -9,7 +9,7 @@
       position: relative;
   }
   .LogoMMGYM{
-        width: 10vh;
+        height: 7vh;
         animation-play-state: paused;
         position: relative;
         transition: all 0.5s ease-in-out;
