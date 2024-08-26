@@ -8,8 +8,16 @@
       justify-content: space-between;
       position: relative;
   }
-  #logo_location{
-      height: 7vh;
+  .LogoMMGYM{
+    width: 10vh;
+    animation-play-state: paused;
+    position: relative;
+    top: 1vh;
+    transition: all 0.5s ease-in-out;
+    z-index: 2;
+  }
+  .logo_move_right{
+    transform: translateX(-75vw);
   }
   #title_location{
       font-size: 5vh;
