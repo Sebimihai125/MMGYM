@@ -24,7 +24,7 @@
       z-index: 2;
     }
     .logo_move_right{
-      transform: translateX(-230%);
+      transform: translateX(-260%);
     }
     #firsttwo_Parts_container{
       height: 100vh;
