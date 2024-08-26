@@ -42,8 +42,10 @@
       padding-right: 2vh;
     }
   #navigation_zone{
-    font-size: 5vh;
-    padding-left: 2vh;
+    font-size: 3vh;
+        height: 6vh;
+        position: absolute;
+        width: 100%;
   }
   .link_comn{
     font-size: 1vh;
