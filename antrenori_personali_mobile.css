@@ -54,8 +54,11 @@
     transition: all 1s ease;
   }
   .navigation_bars{
-    transition: all 2s ease-in-out;
-    color: #ffffff;
+    padding-left: 1vh;
+    position: relative;
+    z-index: 1;
+    font-size: 5vh;
+    color: white;
   }
   .link_comn:hover{
     text-decoration: underline;
