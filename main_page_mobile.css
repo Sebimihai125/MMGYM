@@ -116,6 +116,7 @@
       }
       .navigation_bars{
         padding-left: 1vh;
+        padding-top: 1vh;
         position: relative;
         z-index: 1;
         font-size: 5vh;
