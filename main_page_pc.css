@@ -194,6 +194,7 @@
     padding-left: 10vh;
     position: relative;
     opacity: 1;
+    gap: 0.5vh;
   }
   .navigation_close {
     opacity: 0;
