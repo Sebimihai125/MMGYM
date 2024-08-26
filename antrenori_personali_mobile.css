@@ -12,7 +12,6 @@
         width: 10vh;
         animation-play-state: paused;
         position: relative;
-        top: 1vh;
         transition: all 0.5s ease-in-out;
         z-index: 2;
       }
