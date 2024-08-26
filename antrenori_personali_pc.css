@@ -348,15 +348,19 @@
         gap: 1vh;
       }
       #location_wrapper{
-        transition: all 0.5s ease;
-        color: white;
-        text-decoration: none;
-      }
-      #location_wrapper:hover{
-        color: rgb(121, 0, 0);
-        cursor: pointer; 
-        text-decoration: underline;
-      }
+    transition: all 0.5s ease;
+    color: white;
+    text-decoration: none;
+  }
+  #location_wrapper:hover{
+    color: rgb(121, 0, 0);
+    cursor: pointer; 
+    text-decoration: underline;
+  }
+  #location_wrapper:hover location_txt{
+    text-shadow: 0 0 10px gold;
+    color: wheat;
+  } 
       #link_location{
         transition: all 0.5s ease;
         color: #fff;
@@ -370,12 +374,13 @@
         width: 25vh;
       }
       .comn_icon{
-        color: white;
-        transition: all 0.5s ease;
-      }
-      .comn_icon:hover{
-        color: rgb(121, 0, 0); 
-      }
+    color: white;
+    transition: all 0.5s ease;
+  }
+  .comn_icon:hover{
+    text-shadow: 0 0 10px gold;
+    color: wheat;
+  }
       #line_wrapper{
         display: flex;
         justify-content: center;
@@ -401,4 +406,17 @@
         display: flex;
         justify-content: center;
       }
+      .comn_link{
+    font-size: 2vh;
+    color: #fff;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    transition: all 1s ease;
+ }
+ .comn_link:hover {
+    text-decoration: underline;
+    color: #f5deb3;
+    text-shadow: 0 0 10px gold;
+  }
 }
