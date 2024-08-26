@@ -60,6 +60,7 @@
   .link_comn:hover {
     text-decoration: underline;
     color: #fff;
+    text-shadow: 0 0 10px gold;
   }
   .dropdown_menu_navigation {
     display: flex;
