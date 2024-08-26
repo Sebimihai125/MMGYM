@@ -16,7 +16,8 @@
         z-index: 2;
       }
       .logo_move_right{
-        transform: translateX(-75vw);
+        transform: translateX(-35vw);
+        top: 1vh;
       }
   #title_location{
       font-size: 5vh;
