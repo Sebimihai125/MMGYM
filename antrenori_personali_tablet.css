@@ -12,12 +12,12 @@
     width: 20vh;
     animation-play-state: paused;
     position: relative;
-    top: 1vh;
     transition: all 0.5s ease-in-out;
     z-index: 2;
   }
   .logo_move_right{
-    transform: translateX(-75vw);
+    transform: translateX(-45vw);
+    top: 1vh;
   }
     #title_location{
         font-size: 6vh;
@@ -153,7 +153,9 @@
     #fifthPart{
       height: 100vh;
       background-repeat: no-repeat;
-      background-size: cover
+      background-size: cover;
+      align-items: center;
+      justify-content: center;
     }
     #background5{
       width: 100%;
