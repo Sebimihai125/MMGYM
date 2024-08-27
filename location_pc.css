@@ -156,6 +156,11 @@
       display: flex;
       padding-right: 2vh;
     }
+   #location_map{
+      height: 60vh;
+      padding: 5vh 0vh;
+}
+   }
     #theLastPart{
         background-color: black;
         color: white;
