@@ -23,14 +23,22 @@
         justify-content: space-between;
         position: relative;
     }
-    #logo_location{
-        height: 10vh;
-    }
+    .LogoMMGYM{
+    width: 20vh;
+    animation-play-state: paused;
+    position: relative;
+    transition: all 0.5s ease-in-out;
+    z-index: 2;
+  }
+  .logo_move_right{
+    transform: translateX(-45vw);
+    top: 1vh;
+  }
     #title_location{
         font-size: 6vh;
         display: flex;
         align-items: center;
-        color: wheat;
+        color: #fff;
     }
     #location_name{
         font-size: 10vh;
@@ -39,48 +47,123 @@
     #location_name_wrapper{
         padding: 5vh 0;
     }
-    #navigation_zone{
-      font-size: 5vh;
-      padding-left: 2vh;
+    .comn_link{
+        color: wheat;
+        text-decoration: none;
+        transition: all 0.5s ease;
     }
+    #navigation_zone{
+    font-size: 5vh;
+    height: 12vh;
+    position: absolute;
+  }
+  .link_comn{
+    font-size: 3vh;
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    transition: all 1s ease;
+  }
+  .navigation_bars {
+    padding-left: 2vh;
+    position: relative;
+    z-index: 1;
+    font-size: 10vh;
+    color: white;
+  }
+  .link_comn:hover {
+    text-decoration: underline;
+    color: #fff;
+    text-shadow: 0 0 10px gold;
+  }
+  .dropdown_menu_navigation {
+    display: flex;
+    flex-direction: column;
+    padding: 2vh 2vh;
+    border-top-right-radius: 5vh;
+    border-bottom-right-radius: 5vh;
+    gap: 2vh;
+    background-color: #f5deb3;
+    transition: all 0.5s ease-in-out;
+    height: 100vh;
+    width: 50vh;
+    position: relative;
+    z-index: 2;
+    transform: translateX(-100%);
+  }
+  .menu_close{
+    transform: translateX(-100%);
+  }
+  .menu_open{
+    transform: translateX(0%);
+  }
+  .title_dropdown_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .closing_mark{
+    font-size: 10vh;
+  }
+  .dropdown_section{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    transition: all 0.5s ease-in-out;
+  }
+  .dropdown_section_title{
+    display: flex;
+    gap: 1vh;
+    align-items: center;
+    transition: all 0.5s ease-in-out;
+  }
+  .LogoMMGYM_v2_opacity_0{
+    opacity: 0;
+    width: 20vh;
+    animation-play-state: paused;
+    position: relative;
+    top: 1vh;
+    transition: all 0.5s ease-in-out;
+    z-index: 2;
+  }
+  .dropdown_section_content{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding-left: 10vh;
+    position: relative;
+    opacity: 1;
+    gap: 0.5vh;
+  }
+  .navigation_close {
+    opacity: 0;
+    position: absolute;
+    pointer-events: none;
+    will-change: opacity;
+  }
+  .socials_close{
+    opacity: 0;
+    position: absolute;
+    pointer-events: none;
+    will-change: opacity;
+  }
+  .comn_list_items{
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  .comn_list_items::before {
+    content: '•'; /* Add bullet point */
+    margin-right: 10px; /* Space between bullet and text */
+    font-size: 1.2em; /* Adjust size as needed */
+    color: black; /* Adjust color as needed */
+    position: absolute; /* Position absolute for better control */
+    left: -5vh; /* Adjust position as needed */
+  }
     #header_contents_container{
       display: flex;
       padding-right: 2vh;
-    }
-    .link_comn{
-      font-size: 1.5vh;
-      color: rgb(255, 255, 255);
-      text-decoration: none;
-      font-family: Arial, Helvetica, sans-serif;
-      font-weight: 900;
-      transition: all 1s ease;
-    }
-    .navigation_bars{
-      transition: all 2s ease-in-out;
-      color: wheat;
-    }
-    .link_comn:hover{
-    text-decoration: underline;
-    color: wheat;
-    text-shadow: 0 0 10px gold;
-  }
-    .dropdown_menu_navigation{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 2vh 0vh;
-      border-radius: 2vh;
-      gap: 2vh;
-      position: absolute;
-      z-index: 10;
-      background: black;
-      opacity: 0;
-      transition: all 1s ease;
-      pointer-events: none;
-    }
-  #navigation_zone:hover .dropdown_menu_navigation{
-      opacity: 1;
-      pointer-events: all;
     }
     #forthPart{
         display: flex;
@@ -237,6 +320,8 @@
     }
     #title_v2{
         font-size: 6vh;
+        position: relative;
+        top: 0vh;
     }
     .flex_comon{
         display: flex;
@@ -244,15 +329,19 @@
         gap: 1vh;
     }
     #location_wrapper{
-        transition: all 0.5s ease;
-        color: white;
-        text-decoration: none;
-    }
-    #location_wrapper:hover{
-        color: rgb(121, 0, 0);
-        cursor: pointer; 
-        text-decoration: underline;
-    }
+    transition: all 0.5s ease;
+    color: white;
+    text-decoration: none;
+  }
+  #location_wrapper:hover{
+    color: rgb(121, 0, 0);
+    cursor: pointer; 
+    text-decoration: underline;
+  }
+  #location_wrapper:hover location_txt{
+    text-shadow: 0 0 10px gold;
+    color: wheat;
+  } 
     #link_location{
         transition: all 0.5s ease;
         color: #fff;
@@ -266,12 +355,13 @@
         width: 15vh;
     }
     .comn_icon{
-        color: white;
-        transition: all 0.5s ease;
-    }
-    .comn_icon:hover{
-        color: rgb(121, 0, 0); 
-    }
+    color: white;
+    transition: all 0.5s ease;
+  }
+  .comn_icon:hover{
+    text-shadow: 0 0 10px gold;
+    color: wheat;
+  }
     #line_wrapper{
         display: flex;
         justify-content: center;
@@ -288,8 +378,6 @@
     .comn_space{
         display: flex;
         gap: 2vh;
-        align-items: flex-end;
-    }
     }
     #second_section_wrapper{
         display: flex;
@@ -299,4 +387,17 @@
         display: flex;
         justify-content: center;
     }
+    .comn_link{
+    font-size: 2vh;
+    color: #fff;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    transition: all 1s ease;
+ }
+ .comn_link:hover {
+    text-decoration: underline;
+    color: #f5deb3;
+    text-shadow: 0 0 10px gold;
+  }
 }
