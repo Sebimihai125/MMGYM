@@ -258,7 +258,7 @@
         left: 0vh;
       }
       50%{
-        left: 5vh;
+        left: 10vh;
       }
       100%{
         left: 0vh;
@@ -275,7 +275,7 @@
         right: 0vh;
       }
       50%{
-        right: 5vh;
+        right: 10vh;
       }
       100%{
         right: 0vh;
