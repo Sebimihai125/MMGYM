@@ -270,6 +270,7 @@
     color: #1260da;
     text-decoration: none;
     top: 30vh;
+    transition: all 1s ease;
   }
     #tag_name:hover{
    text-decoration: underline;
